@@ -1,0 +1,87 @@
+/* .pie {
+    margin: 0 auto;
+    position: relative;
+    width: 116px;
+    height: 58px;
+    overflow: hidden;
+}
+
+.pie *,
+.pie::before {
+    box-sizing: border-box;
+}
+
+.pie::before {
+    content: '';
+    width: inherit;
+    height: inherit;
+    border: 20px solid grey;
+    border-bottom: none;
+    border-top-left-radius: 175px;
+    border-top-right-radius: 175px;
+    position: absolute;
+    left:0;
+}
+
+.pie .overlay{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    border: 20px solid;
+    border-top: none;
+    border-bottom-left-radius: 175px;
+    border-bottom-right-radius: 175px;
+    transform-origin: 50% 0;
+    border-color:yellow;
+    transform: rotate(90deg); 
+}
+ */
+
+
+
+
+.pie {
+    margin: 0 auto;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    border-radius: 200px 200px 0 0;
+    overflow: hidden;
+}
+.pie::after {
+    transform: rotate(-60deg);      /*  set rotation degree  */
+    background: linear-gradient(to right, rgba(228,232,7,1) 0%, rgba(0,218,156,1) 100%);
+    transform-origin: center bottom;
+}
+.pie::before {
+    border: 20px solid grey;
+}
+.pie .overlay{
+    top: 20px;                      /*  match border width  */
+    left: 20px;                     /*  match border width  */
+    width: calc(100% - 40px);       /*  match border width times 2  */
+    height: calc(200% - 40px);      /*  match border width times 2  */
+    border-radius: 100%;
+    background: #000075;
+    z-index: 1;                     /*  move it on top of the pseudo elements  */
+}
+.pie *,
+.pie::before,
+.pie::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    box-sizing: border-box;
+}
+
+.arrow{
+    margin-left: -1px;
+    position: absolute;
+    margin-top: -11px;
+}

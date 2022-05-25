@@ -1,0 +1,24 @@
+.Appbaar{
+    background-color: rgb(169, 166, 166);
+}
+.profile{
+    background-color: red;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    text-align: center;
+    color: black;
+}
+.Z{
+    color: rgb(34, 237, 237);
+    font-size: 30px;
+    font-family: bold;
+}
+.cuma{
+    color: black;
+}
+.profileImage{
+width: 45px;
+height: 45px;
+border-radius: 45px;
+}

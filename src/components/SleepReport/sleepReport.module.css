@@ -1,0 +1,38 @@
+.Main{
+    background-color: white;
+    color: black;
+    margin-left: 50px;
+}
+.box{
+    border: 1px solid gray;
+    width: 100%;
+    height: auto
+}
+.flex{
+    display: flex;
+}
+.time{
+    font-size: 40px;
+    font-weight: 100px;
+    padding-left: 30px;
+}
+.icon{
+    padding: 20px;
+}
+.iconbg1{
+   background-color: rgb(10, 246, 242);
+}
+.iconbg2{
+    background-color: rgb(10, 246, 42);
+ }
+ .flexWrap{
+     display: flex;
+     margin-bottom: 30px;
+ }
+ .flex2{
+     display: flex;
+     margin-left: 30px;
+ }
+ .sleep{
+     margin-left: 5px;
+ }
