@@ -78,10 +78,10 @@ const Index = () => {
           sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
         >
          <Typography sx={{display:"flex"}}>
-           <Typography className={style.Z}>Z<sub>z</sub>
+           {/* <Typography className={style.Z}>Z<sub>z</sub>
            <Typography className={style.cuma}>Cuma nongs</Typography>
-           </Typography>
-           <Typography sx={{mx:1,paddingTop:"25px"}} className={style.cuma}>Hii Wayueh</Typography>
+           </Typography> */}
+           <Typography sx={{mx:5,paddingTop:"25px"}} className={style.cuma}>Hii Wayueh</Typography>
          </Typography>
         </Typography>
 

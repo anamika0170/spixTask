@@ -31,16 +31,20 @@ const Index = () => {
         variant="permanent"
         className={style.sidebar}
       >
+      <List className={style.list}>
+        <Typography className={style.Z} sx={{fontSize:"40px",marginTop:"-10px"}}>Z<sub>z</sub></Typography>
+        <Typography className={style.cuma}>Cuma nongs</Typography>
+      </List>
         <Toolbar className={style.sidebar} />
         <Box className={style.sidebar}>
-          <List className={style.sidebar} sx={{height:"480px",paddingTop:"200px"}}>
-            <EventNoteIcon className={style.icon} />
+          <List className={style.sidebar1} sx={{height:"450px",paddingTop:"200px",marginTop:"-72px"}}>
+            <EventNoteIcon sx={{fontSize:"30px",mx:2}} className={style.icon} />
             <br />
-            <DarkModeIcon className={style.icon}/>
+            <DarkModeIcon sx={{fontSize:"30px",mx:2}} className={style.icon}/>
             <br />
-            <CalendarTodayIcon className={style.icon}/>
+            <CalendarTodayIcon sx={{fontSize:"30px",mx:2}} className={style.icon}/>
             <br />
-            <AccessTimeIcon className={style.icon}/>
+            <AccessTimeIcon sx={{fontSize:"30px",mx:2}} className={style.icon}/>
             <br />
           </List>
         </Box>

@@ -8,7 +8,27 @@
 .sidebar{
     background-color: rgb(169, 166, 166);
 }
+.sidebar1{
+    background-color: rgb(169, 166, 166);
+    height:"450px";
+    padding-top:"200px";
+    margin-top:"-72px"
+}
 .icon{
     color:rgb(44, 71, 44);
     font-size: 40px;
+}
+.Z{
+    color: rgb(34, 237, 237);
+    font-family: bold;
+    background-color: rgb(169, 166, 166);
+    
+}
+.cuma{
+    background-color: rgb(169, 166, 166);
+    font-weight: bold;
+    
+}
+.list{
+    
 }

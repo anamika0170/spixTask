@@ -18,12 +18,15 @@
 }
 .icon{
     padding: 20px;
+
 }
 .iconbg1{
    background-color: rgb(10, 246, 242);
+   border-radius: 15px 0px 0px 15px;
 }
 .iconbg2{
     background-color: rgb(10, 246, 42);
+    border-radius: 15px 0px 0px 15px;
  }
  .flexWrap{
      display: flex;
@@ -34,5 +37,10 @@
      margin-left: 30px;
  }
  .sleep{
+     margin-right: 25px;
      margin-left: 5px;
+
+ }
+ .image{
+     margin-left: 60px;
  }

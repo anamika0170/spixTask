@@ -61,7 +61,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 export default function BasicCard(props) {
   return (
    <Box>
-    <Box sx={{display:"flex"}}>
+    <Box sx={{display:"flex",mx:10}}>
     <Box>
       <Card sx={{ minWidth: 275,mx:5 }}>
       <CardContent>
@@ -129,7 +129,7 @@ export default function BasicCard(props) {
    </Box>
     </Box>
     
-    <Box sx={{display:"flex",marginTop: "-142px"}}>
+    <Box sx={{display:"flex",marginTop: "-142px",mx:10}}>
     <Box>
       <Card sx={{ minWidth: 275,mx:5 }}>
       <CardContent>

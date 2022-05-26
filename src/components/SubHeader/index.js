@@ -66,7 +66,7 @@ const SubHeader= () => {
           edge="start"
           color="inherit"
           aria-label="open drawer"
-          sx={{ mr: 2 }}
+          sx={{ mr: 8 }}
         >
           <MenuIcon />
         </IconButton>
@@ -78,7 +78,7 @@ const SubHeader= () => {
         >
          <Typography sx={{display:"flex"}}>
            <Typography className={style.heading}>Your <strong><u>Sleep </u></strong>Report
-           <Typography>Try to avoid your laptop after 09PM</Typography>
+           <Typography className={style.text}>Try to avoid your laptop after 09PM</Typography>
            </Typography>
          </Typography>
         </Typography>
@@ -87,7 +87,7 @@ const SubHeader= () => {
         </Typography>
       </Toolbar>
     </AppBar>
-    <SleepReportChart/>
+    <SleepReportChart sx={{mx:5}}/>
   </Box>
   )
 }

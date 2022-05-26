@@ -1,6 +1,7 @@
 import React from 'react'
 import Score from '../YourScore'
 import BasicCard from './Card'
+import style from "./fullExplaination.module.css"
 
 const FullEx = () => {
     const Data=[
@@ -47,7 +48,7 @@ const FullEx = () => {
     ]
   return (
     <div>
-        <h3>Full explaination</h3>
+        <h3 className={style.heading}>Full explaination</h3>
         <div>
             <div>
                 <BasicCard/>

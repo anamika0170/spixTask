@@ -22,7 +22,7 @@ const SmartAlarm = () => {
   return (
     <Box className={style.smart}>
       <Box>
-        <Typography sx={{ display: "flex" }}>
+        <Typography className={style.smartAlarm}>
           <Typography>Smart Alarm</Typography>
           <Typography>
         {/* <ToggleSwitch  label="." /> */}
@@ -61,7 +61,7 @@ const SmartAlarm = () => {
           </Box>
       </Box>
 <Box>
-<center><Button style={{padding:"5px", backgroundColor:"green", color:"white"}}>Set on my phone</Button></center>
+<center><Button className={style.Button}>Set on my phone</Button></center>
 
 </Box>    </Box>
   );

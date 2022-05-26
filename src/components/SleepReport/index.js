@@ -11,40 +11,22 @@ import FullEx from "../FullExplanation";
 import style from "./sleepReport.module.css";
 import AccessAlarmsIcon from "@mui/icons-material/AccessAlarms";
 import RunningWithErrorsIcon from "@mui/icons-material/RunningWithErrors";
+import graph from '../../assets/graph.PNG'
 
 const SleepReportChart = () => {
-  const data = [
-    { x: 1, y: 30 },
-    { x: 2, y: 40 },
-    { x: 3, y: 5 },
-    { x: 4, y: 2 },
-    { x: 5, y: 21 },
-    { x: 6, y: 30 },
-    { x: 7, y: 40 },
-    { x: 8, y: 5 },
-    { x: 9, y: 2 },
-    { x: 10, y: 21 },
-  ];
 
   return (
     <Box className={style.Main}>
       <div className={style.flex}>
         <div>
-          <Paper sx={{width:"800px",backgroundImage:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV4LAKgA3suGljtpaAWGYGV2SUecZ0qdTnTWhcx47JHr0h0uEHEP_VJuLee0SlSlVguRM&usqp=CAU)',backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-            <Chart data={data}>
-              {/* <ArgumentAxis />
-              <ValueAxis /> */}
-
-              <LineSeries valueField="y" argumentField="x" />
-            </Chart>
-          </Paper>
+          <img className={style.image} src={graph}/>
         </div>
         <div>
           <h4>Sleep Total</h4>
           <div className={style.flexWrap}>
             <div className={style.iconbg1}>
               {" "}
-              <AccessAlarmsIcon className={style.icon} />
+              <AccessAlarmsIcon className={style.icon} sx={{fontSize:"40px"}}/>
             </div>
             <div className={style.time}>
               7<sub>h</sub>14<sub>m</sub>
@@ -54,7 +36,7 @@ const SleepReportChart = () => {
           <div className={style.flexWrap}>
             <div className={style.iconbg2}>
               {" "}
-              <RunningWithErrorsIcon className={style.icon} />
+              <RunningWithErrorsIcon className={style.icon} sx={{fontSize:"40px"}}/>
             </div>
             <div className={style.flex2}>
               <div>
